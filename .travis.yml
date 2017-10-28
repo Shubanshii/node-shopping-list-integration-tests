@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SQQjDEmuTtWXy4dQfKruUFuI3Li3bdYzAVLv7BoDV0ezAmKlunUCHL2Lxa7caCnRd4+KGM9NQP19GOiNHdD+uMZBkX6O+1PPWfIwCOiktVvRtb2DYNQEqlmmX2pTvnod5zeTHpdZcutu9ReBBfFancG8jCucN1DVETT+M9ik7pqUHf/7IiWXRWfj7pwcNo1Y0bUSEpouSB1Owk2TRFCeJuVkXFBea+WWX9ZP7xCrTldwZkePkAaTcLxJapQrkvNv3JjQdYPqLJgKVKOEsmVQgbPDq1kaVqEBFngdE5gi0IXjeB8Y02LxtmmAZPBj2lqFbA+NG3ytRQbHZg1LC+/uLtjHXivDdsU7D1ZxbGHEN3ts/dhtsaWAxVkLIXOCmuw4wUamWfJ5tKD2+toCmSxEql+mffolob1/U1nBr+2Klbif5ZBCtUhf2BkmkwNEQT8sw3csPTCHbyXQ7K8Y1CUA0WMSZhUhUxLJZ437LLFY9xS+P/vhVZjN2PrNCZ4hxhniV/SkRIiIIRqTBcp8zCX90wbO7SQjMc3EVltWUfOwSdKQMn4mOG4FBg0+D3B1jpyoNFVfVPkM+P5rQSShIgTxUWq0eV2Tdfv0XOzG4C7CNwyGs4Qcn5A26geZK6bbs7tMY7zt7KWtPod2AWqEUn3Cy/4wpP2yRvD+MKa/g930NLg=
+  app: sleepy-earth-10287
+  on:
+    repo: Shubanshii/node-shopping-list-integration-tests
